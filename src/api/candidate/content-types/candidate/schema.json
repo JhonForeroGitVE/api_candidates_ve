@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "candidates",
+  "info": {
+    "singularName": "candidate",
+    "pluralName": "candidates",
+    "displayName": "Candidate",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Experience": {
+      "type": "enumeration",
+      "enum": [
+        "A. 101",
+        "B. 201",
+        "C. 201",
+        "D. 401"
+      ]
+    },
+    "LOB": {
+      "type": "enumeration",
+      "enum": [
+        "A. Admin",
+        "B. Customer Service",
+        "C. Data",
+        "D. Marketing",
+        "E. Sales",
+        "F. VCEO Team"
+      ]
+    },
+    "Interview": {
+      "type": "string"
+    },
+    "CurriculumVitae": {
+      "type": "string"
+    },
+    "Skills": {
+      "type": "json"
+    }
+  }
+}
